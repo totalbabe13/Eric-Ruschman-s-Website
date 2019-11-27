@@ -12,14 +12,21 @@
   /*background-color: rgba(106, 253, 159, 0.8);*/
 
 }
+#nav {
+    padding-left: 0;
+    position: absolute;
+    top: 43%;
+    left: 39%;
+    list-style-type: none;
+    background-color: #0000ff1f;
+}
 
-#info {
-	position: absolute;
+#exhibitions {
+	/* position: absolute;
 	top: 46%;
 	right: 29%;
 	background-color: white;
-	text-align: center;
-
+	text-align: center; */
 }
 
 .grid-info {
@@ -34,9 +41,8 @@
   /*background-color: rgba(220, 226, 255, 0.8);
   border: 1px solid rgba(180, 175, 241, 0.8);*/
   font-size: 30px;
-
 }
-
+ /* - - - - - - - - - - - - - */
 #e {
 	color: red;
 	grid-row: 2;
