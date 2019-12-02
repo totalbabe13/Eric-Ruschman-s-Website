@@ -32,7 +32,7 @@
  #main-container {
      position: absolute;
      top: 26px;
-     left: 50px;
+     left: 8%;
      width: 85%;
      height: 90%;
      display: grid;
@@ -44,10 +44,30 @@
  #nav {
      padding-left: 0;
      position: absolute;
-     top: 36%;
-     left: 32%;
+     top: 5%;
+     left: -22px;
      list-style-type: none;
      background-color: #0000ff00;
+}
+.nav-item{
+  padding: 4px;
+}
+a {
+  text-decoration: none;
+  font-size: 2.7em;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#contact {
+  text-decoration: none;
+  font-size: 2.7em;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
  #exhibitions {
     /* position: absolute;
