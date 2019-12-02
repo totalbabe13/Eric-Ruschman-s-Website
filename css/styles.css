@@ -44,10 +44,10 @@
  #nav {
      padding-left: 0;
      position: absolute;
-     top: 43%;
-     left: 39%;
+     top: 36%;
+     left: 32%;
      list-style-type: none;
-     background-color: #0000ff1f;
+     background-color: #0000ff00;
 }
  #exhibitions {
     /* position: absolute;
@@ -58,8 +58,9 @@
      */
 }
  .grid-info {
-     background-color: white;
-     grid-column: 3/6;
+   position: relative;
+   background-color: #ffffff00;
+   grid-column: 3/6;
 }
  .grid-item {
      display: grid;
@@ -196,4 +197,3 @@
      background-color: #ffffff00;
      font-size: 1.6em;
 }
- 
